@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="53.424" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="Bookcart application demo" name="add product to the cart - Example #1.1" time="11.925">
+<system-out><![CDATA[
+And user should login "gurusivam23" and "Gurusivam23".......................passed
+And user search the "All of Us with Wings"..................................passed
+When user add the book to the cart..........................................passed
+Then the cart badge should be update........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Bookcart application demo" name="add product to the cart - Example #1.2" time="10.424">
+<system-out><![CDATA[
+And user should login "aravindkk" and "Aravind15"...........................passed
+And user search the "The Simple Wild".......................................passed
+When user add the book to the cart..........................................passed
+Then the cart badge should be update........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Bookcart application demo" name="add product to the cart - Example #2.1" time="10.412">
+<system-out><![CDATA[
+And user should login "prasanth22" and "Pras1234"...........................passed
+And user search the "HP2"...................................................passed
+When user add the book to the cart..........................................passed
+Then the cart badge should be update........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Bookcart application demo" name="add product to the cart - Example #2.2" time="10.316">
+<system-out><![CDATA[
+And user should login "Kiruba25" and "Kirukk2326"...........................passed
+And user search the "HP3"...................................................passed
+When user add the book to the cart..........................................passed
+Then the cart badge should be update........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Bookcart application demo" name="login should be success" time="5.207">
+<system-out><![CDATA[
+And user click on the login link............................................passed
+And user enter the name as guru.............................................passed
+And user enter the password as pass123......................................passed
+When user click the login button............................................passed
+Then login should be success................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Bookcart application demo" name="login shouls be fail" time="4.962">
+<system-out><![CDATA[
+And user click on the login link............................................passed
+And user enter the name as guruss...........................................passed
+And user enter the password as fail123......................................passed
+When user click the login button............................................passed
+Then login should be fail...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
